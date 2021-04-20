@@ -26,6 +26,7 @@ h4 {
 
 h5{
     font-size: 28px;
+    /*padding-bottom: 1em;*/
 }
 
 img {
@@ -37,6 +38,12 @@ img {
     height: 105px;
     background-color: #E6563B;
     border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
 }
 
 .button2 {
@@ -44,6 +51,13 @@ img {
     height: 105px;
     background-color: #EB9D3A;
     border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+
 }
 
 .button3 {
@@ -51,6 +65,12 @@ img {
     height: 105px;
     background-color: #7CB06C;
     border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
 }
 
 .button4 {
@@ -58,6 +78,63 @@ img {
     height: 105px;
     background-color: #00ABA9;
     border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#span {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-button1 {
+    width: 18px;
+    height: 18px;
+    background-color: #E6563B;
+    font-size: 9px;
+    display: inline-block;
+    padding-top: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.small-button2 {
+    width: 18px;
+    height: 18px;
+    background-color: #EB9D3A;
+    font-size: 9px;
+    display: inline-block;
+    /*padding: 32px 10px 10px 10px;*/
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.small-button3 {
+    width: 18px;
+    height: 18px;
+    background-color: #7CB06C;
+    font-size: 9px;
+    display: inline-block;
+    /*padding: 32px 10px 10px 10px;*/
+    text-transform: uppercase;
+    color: black;
+}
+
+.small-button4 {
+    width: 18px;
+    height: 18px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
 }
 
 @media only screen and (max-width: 576px) {
