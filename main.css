@@ -1,3 +1,4 @@
+
 body {
     background: #f0f0f0;
     font-family: 'Anton', sans-serif;
@@ -30,9 +31,11 @@ h5{
 }
 
 img {
-    /*border-color: #E6E6E6;*/
-    border: solid 5px hotpink;
+    border-color: #E6E6E6;
+    border: solid 5px ;
 }
+
+
 .button1 {
     width: 105px;
     height: 105px;
@@ -91,12 +94,16 @@ img {
     flex-direction: column;
 }
 
+.row{
+    margin: auto;
+}
+
 .small-button1 {
     width: 18px;
     height: 18px;
     background-color: #E6563B;
     font-size: 9px;
-    display: inline-block;
+    /*display: inline-block;*/
     padding-top: 2px;
     text-transform: uppercase;
     color: black;
@@ -107,7 +114,7 @@ img {
     height: 18px;
     background-color: #EB9D3A;
     font-size: 9px;
-    display: inline-block;
+    /*display: inline-block;*/
     /*padding: 32px 10px 10px 10px;*/
     text-transform: uppercase;
     color: black;
@@ -119,7 +126,7 @@ img {
     height: 18px;
     background-color: #7CB06C;
     font-size: 9px;
-    display: inline-block;
+    /*display: inline-block;*/
     /*padding: 32px 10px 10px 10px;*/
     text-transform: uppercase;
     color: black;
@@ -130,9 +137,9 @@ img {
     height: 18px;
     background-color: #00ABA9;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     text-transform: uppercase;
     color: black;
 }
