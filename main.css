@@ -1,7 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
     margin: auto;
+
+}
+
+.bigButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallButtons {
+    display: none;
 }
 
 body {
@@ -39,6 +50,7 @@ h5{
 }
 
 p {
+    flex-grow: 1;
 }
 
 img {
@@ -110,20 +122,21 @@ img {
     flex-direction: column;
 }
 
-.row{
+.row {
     margin: auto;
 }
 
 .Featured {
     display: flex;
     justify-content: space-between;
-
+    flex-grow: 1;
 }
 
 .SButtons {
     display: flex;
     justify-content: flex-end;
 }
+
 .small-button1 {
     width: 18px;
     height: 18px;
@@ -179,6 +192,8 @@ img {
     color: black;
 }
 
+
+
 @media only screen and (min-width: 576px) {
 
     .button1 {
@@ -189,4 +204,13 @@ img {
         margin-bottom: 3em;
     }
 
+    .smallButtons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bigButtons {
+        display: flex;
+        justify-content: space-between;
+    }
 }
