@@ -1,8 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 * {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 body {
     background: #f0f0f0;
@@ -42,8 +41,7 @@ p {
 }
 
 img {
-    border-color: #E6E6E6;
-    border: solid 5px ;
+    border: 5px solid #E6E6E6;
 }
 
 
@@ -118,10 +116,11 @@ img {
 .Featured {
     display: flex;
     justify-content: space-between;
+
 }
 
 .SButtons {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 }
 .small-button1 {
@@ -179,3 +178,65 @@ img {
     color: black;
 }
 
+@media only screen and (max-width: 576px) {
+
+    .button1 {
+        width: 105px;
+        height: 105px;
+        background-color: #E6563B;
+        border: 5px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 3em;
+
+    }
+
+    .button2 {
+        width: 105px;
+        height: 105px;
+        background-color: #EB9D3A;
+        border: 5px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 3em;
+    }
+
+    .button3 {
+        width: 105px;
+        height: 105px;
+        background-color: #7CB06C;
+        border: 5px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 3em;
+
+    }
+
+    .button4 {
+        width: 105px;
+        height: 105px;
+        background-color: #00ABA9;
+        border: 5px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 3em;
+
+    }
+
+}
