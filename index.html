@@ -8,7 +8,24 @@
 </head>
 <body>
 
-<nav></nav>
+<div class="jumbotron">
+    <div>
+        <img src="images/logo.png" class="logo"/>
+    </div>
+</div>
+
+
+<nav>
+    <div class="codeup" style="font: 36px;">
+        <p>codeup design</p>
+    </div>
+    <ul class="nav-links">
+        <li>SERVICES</li>
+        <li>WORK</li>
+        <li>BLOG</li>
+        <li>CONTACT</li>
+    </ul>
+</nav>
 
 <h1>VISUAL DESIGN &  WEB DEVELOPMENT</h1>
 
@@ -84,15 +101,66 @@
 
 <!--Too lazy to reconfigure the original image over and over, just hiding it and making a new one.-->
 
+
+<div class="display:flex; flex-wrap:wrap;  ">
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <img src="images/apple-ipad.jpg" alt="apple product"/>
+            <div style="max-width: 640px;">
+                <p style="float:left;">Featured Projects</p>
+                <div class="row" style="float:right;">
+                    <div class="small-button1 rounded-circle">D</div>
+                    <div class="small-button2 rounded-circle">D</div>
+                    <div class="small-button3 rounded-circle">S</div>
+                    <div class="small-button4 rounded-circle">H</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 d-none d-sm-block">
+            <img src="images/macbook.jpg" alt="macbook" />
+            <div style="max-width: 640px;">
+                <p style="float:left;">Featured Projects</p>
+                <div class="row" style="float:right;">
+                    <div class="small-button1 rounded-circle">D</div>
+                    <div class="small-button2 rounded-circle">D</div>
+                    <div class="small-button3 rounded-circle">S</div>
+                    <div class="small-button4 rounded-circle">H</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr/><hr/><hr/>
+
+
 <div class="d-block d-sm-none">
-    <img src="images/apple-ipad.jpg" height="426" width="640" alt="apple product"/>
-    <div class="Featured">
-        <p>Featured Projects</p>
-        <div class="SButtons">
-            <div class="small-button1 rounded-circle">D</div>
-            <div class="small-button2 rounded-circle">D</div>
-            <div class="small-button3 rounded-circle">S</div>
-            <div class="small-button4 rounded-circle">H</div>
+    <div class="col-6">
+
+        <div style="
+    display: flex;
+    justify-content: space-between;">
+            <div >Featured Projects</div>
+            <div class="SButtons" >
+                <div class="small-button1 rounded-circle">D</div>
+                <div class="small-button2 rounded-circle">D</div>
+                <div class="small-button3 rounded-circle">S</div>
+                <div class="small-button4 rounded-circle">H</div>
+            </div>
         </div>
     </div>
 </div>
@@ -101,10 +169,12 @@
     <main class="smallButtons">
         <div class="row">
             <div class="col-6" style="display:grid;justify-content:center;">
-                <img src="images/apple-ipad.jpg" height="426" width="640" alt="apple product"/>
-                <div class="Featured">
+                <img src="images/apple-ipad.jpg" alt="apple product"/>
+                <div style="
+    display: flex;
+    justify-content: space-between;">
                     <p>Featured Projects</p>
-                    <div class="SButtons">
+                    <div class="SButtons" style=";">
                         <div class="small-button1 rounded-circle">D</div>
                         <div class="small-button2 rounded-circle">D</div>
                         <div class="small-button3 rounded-circle">S</div>
@@ -113,7 +183,7 @@
                 </div>
             </div>
             <div class="col-6"  style="display:grid;justify-content:center;">
-                <img src="images/macbook.jpg" height="425" width="640" alt="macbook"/>
+
                 <div class="Featured">
                     <p>Featured Projects</p>
                     <div class="SButtons">

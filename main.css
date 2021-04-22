@@ -1,9 +1,44 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 * {
     margin: auto;
 
+}
+
+.jumbotron {
+    background-color: white;
+    background-size: cover;
+    margin-top: 3em;
+    height: 20px;
+}
+
+.logo {
+    height: 105px;
+    width: 105px;
+    border: 0;
+}
+
+li {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    list-style-type: none;
+    color: black;
+}
+
+
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    font-family: 'Abel', sans-serif;
 }
 
 .bigButtons {
@@ -50,7 +85,7 @@ h5{
 }
 
 p {
-    flex-grow: 1;
+    /*font-size: 48px;*/
 }
 
 img {
@@ -140,56 +175,45 @@ img {
 .small-button1 {
     width: 18px;
     height: 18px;
-    background-color: #E6563B;
-    border-radius: 50%;
-    /*font-size: 9px;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2px;
+    line-height: 18px;
+    font-size: 12px;
     text-transform: uppercase;
     color: black;
+
+    background-color: #E6563B;
 }
 
 .small-button2 {
     width: 18px;
     height: 18px;
-    background-color: #EB9D3A;
-    border-radius: 50%;
-    /*font-size: 9px;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*padding: 32px 10px 10px 10px;*/
+    line-height: 18px;
+    font-size: 12px;
     text-transform: uppercase;
     color: black;
+    background-color: #EB9D3A;
+
 
 }
 
 .small-button3 {
     width: 18px;
     height: 18px;
-    background-color: #7CB06C;
-    border-radius: 50%;
-    /*font-size: 9px;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*padding: 32px 10px 10px 10px;*/
+    line-height: 18px;
+    font-size: 12px;
     text-transform: uppercase;
     color: black;
+    background-color: #7CB06C;
+
 }
 
 .small-button4 {
     width: 18px;
     height: 18px;
-    background-color: #00ABA9;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 18px;
+    font-size: 12px;
     text-transform: uppercase;
     color: black;
+    background-color: #00ABA9;
 }
 
 
