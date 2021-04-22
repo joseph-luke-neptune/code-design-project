@@ -8,22 +8,85 @@
 </head>
 <body>
 
-<div class="jumbotron">
-    <img src="images/logo.png" class="logo" style="margin-top: -50px"/>
+<!--Mobile View-->
+
+<div class="jumbotron d-block d-sm-none">
+    <img src="images/logo.png" alt="logo"  class="logo" style="margin-top: -50px"/>
 </div>
 
-
 <nav>
-    <div class="codeup" style="font-size: xxx-large;">
+    <div class="codeup d-block d-sm-none" style="font-size: xxx-large;">
         codeup design
     </div>
-    <ul class="nav-links">
+    <ul class="nav-links d-col d-sm-none">
         <li>SERVICES</li>
         <li>WORK</li>
         <li>BLOG</li>
         <li>CONTACT</li>
     </ul>
 </nav>
+
+<!--Small Screen, WIP-->
+
+<nav>
+    <ul class="nav-links d-none d-sm-block d-md-none">
+        <li>SERVICES</li>
+        <li>WORK</li>
+        <div class="jumbotron d-none d-sm-block d-md-none">
+            <img src="images/logo.png" alt="logo"  class="logo" style="margin-top: -50px"/>
+        </div>
+        <li>BLOG</li>
+        <li>CONTACT</li>
+    </ul>
+    <div class="codeup d-none d-sm-block d-md-none" style="font-size: xxx-large;">
+        codeup design
+    </div>
+</nav>
+
+<!--Medium-->
+
+<nav>
+    <div class="jumbotron d-none d-md-block d-lg-none">
+        <img src="images/logo.png" alt="logo"  class="logo" style="margin-top: -50px"/>
+    </div>
+
+<!--float left??-->
+
+    <ul class="nav-links d-none d-md-block d-lg-none">
+        <li>SERVICES</li>
+        <li>WORK</li>
+
+        <li>BLOG</li>
+        <li>CONTACT</li>
+    </ul>
+    <div class="codeup d-none d-md-block d-lg-none" style="font-size: xxx-large;">
+        codeup design
+    </div>
+</nav>
+
+<!--Large+-->
+
+<nav>
+    <div class="jumbotron d-none d-md-block d-lg-none">
+        <img src="images/logo.png" alt="logo"  class="logo" style="margin-top: -50px"/>
+    </div>
+
+<!--Fat white space-->
+
+    <ul class="nav-links d-none d-lg-block d-xl-block">
+        <li>SERVICES</li>
+        <li>WORK</li>
+        <div class="jumbotron d-none d-lg-block d-xl-block">
+            <img src="images/logo.png" alt="logo"  class="logo" style="margin-top: -50px"/>
+        </div>
+        <li>BLOG</li>
+        <li>CONTACT</li>
+    </ul>
+    <div class="codeup d-none d-lg-block d-xl-block" style="font-size: xxx-large;">
+        codeup design
+    </div>
+</nav>
+
 
 <h2>VISUAL DESIGN &  WEB DEVELOPMENT</h2>
 
@@ -206,9 +269,6 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto corporis deleniti dignissimos distinctio excepturi exercitationem ipsam ipsum iste laudantium magni minus, natus praesentium ratione, reiciendis rem repellendus ullam voluptates.</p>
         </div>
     </div>
-
-
-
 
 </div>
 
