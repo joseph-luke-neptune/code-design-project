@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 * {
     margin: auto;
-
 }
 
 .jumbotron {
@@ -85,7 +84,7 @@ h5{
 }
 
 p {
-    /*font-size: 48px;*/
+    font-family: 'Abel', sans-serif;
 }
 
 img {
@@ -226,7 +225,10 @@ img {
 }
 
 .small-images {
-
+    width: 33%;
+    align-content: flex-start;
+    /*float: left;*/
+    /*vertical-align: top;*/
 }
 
 @media only screen and (min-width: 576px) {
