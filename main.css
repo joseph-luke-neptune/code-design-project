@@ -179,8 +179,8 @@ img {
     font-size: 12px;
     text-transform: uppercase;
     color: black;
-
     background-color: #E6563B;
+    margin-left: 1em;
 }
 
 .small-button2 {
@@ -191,6 +191,7 @@ img {
     text-transform: uppercase;
     color: black;
     background-color: #EB9D3A;
+    margin-left: 1em;
 
 
 }
@@ -203,6 +204,7 @@ img {
     text-transform: uppercase;
     color: black;
     background-color: #7CB06C;
+    margin-left: 1em;
 
 }
 
@@ -214,9 +216,18 @@ img {
     text-transform: uppercase;
     color: black;
     background-color: #00ABA9;
+    margin-left: 1em;
 }
 
+.featuredProductImage
+{
+    width:100%;
+    max-width:640px;
+}
 
+.small-images {
+
+}
 
 @media only screen and (min-width: 576px) {
 
